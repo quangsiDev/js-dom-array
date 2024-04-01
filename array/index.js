@@ -28,3 +28,27 @@ console.log("😀 - indexTom", indexTom);
 // xoá user "tom"
 nameArray.splice(indexTom, 1);
 console.log("😀 - nameArray", nameArray);
+
+// callback function
+
+var colors = ["black", "green", "blue"];
+
+for (var i = 0; i < colors.length; i++) {
+  console.log(colors[i]);
+}
+
+colors.forEach(function (item) {
+  console.log("😀 - item", item);
+});
+
+// forEach(callback)
+
+function introduce(callback) {
+  callback("Alice");
+}
+// function sayHello(username) {
+//   console.log("hello", username);
+// }
+introduce(function (username) {
+  console.log("hello", username);
+});
