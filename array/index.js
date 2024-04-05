@@ -16,6 +16,7 @@ console.log("😀 - total", total);
 
 // update
 
+// index luôn luôn bắt đầu từ 0
 nameArray[0] = "Alice Nguyễn";
 console.log("😀 - nameArray", nameArray);
 
